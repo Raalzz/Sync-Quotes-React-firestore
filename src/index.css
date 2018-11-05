@@ -8,7 +8,7 @@ body {
   font-family: "sans-serif";
   background-size: 100%;
   background-position: bottom;
-  background-color: #448d97;
+  background-color: #5bc0de;
   min-height: 100%;
 }
 
@@ -26,6 +26,6 @@ input[type="text"]:not(.browser-default):focus:not([readonly]),
 input[type="email"]:not(.browser-default):focus:not([readonly]),
 input[type="password"]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-color: #ec407a;
+  border-color: #ffa500;
   box-shadow: none;
 }

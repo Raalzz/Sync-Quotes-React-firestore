@@ -1,10 +1,16 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const SignedOutLinks = () => {
   return (
-    <div>
-      <h1>SignedOutLinks Component</h1>
-    </div>
+    <ul className="right">
+      <li>
+        <NavLink to="/signup">Signup</NavLink>
+      </li>
+      <li>
+        <NavLink to="/signin">Login</NavLink>
+      </li>
+    </ul>
   );
 };
 
